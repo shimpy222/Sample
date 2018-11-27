@@ -12,6 +12,7 @@ public class Login {
 	@Column
 	//@NotEmpty(message="please enter your password!")
 	private String pass;
+	private String pass1;
 
 	public Login() {
 		super();
